@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.248" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Checking google" name="Validate google search is working" time="0.034">
+<system-out><![CDATA[
+Given browser window is open................................................passed
+And user is on google search page...........................................passed
+When user enters Automation Testing text in search box......................passed
+And hits enter..............................................................passed
+Then user is navigated to search results....................................passed
+Then print the title of the browser and close browser.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
